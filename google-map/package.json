@@ -1,0 +1,22 @@
+{
+  "name": "google-map",
+  "version": "1.0.0",
+  "description": "understanding typescript with google-maps",
+  "main": "app.js",
+  "author": "Frank Lin",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@types/googlemaps": "^3.43.3",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
